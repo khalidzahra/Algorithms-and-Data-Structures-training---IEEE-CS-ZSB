@@ -1,0 +1,17 @@
+Task 1:
+    left_rotation = O(n)
+Task 2:
+    find_merge_point_of_two_lists:
+        Say one list has n nodes before the merge and the other has m nodes. If n > m:
+        Time complexity = O(n)
+    ksenia_and_pan_scales:
+        If the amount of unused characters is n then:
+        Time complexity = O(n)
+Task 3:
+    bowwow_and_the_timetable:
+        If the amount of binary digits is n then:
+        Time complexity = O(n)
+    largest_rectangle:
+        If we assume that n is the length of the height array and m is the length of the positions array
+        Then the worst case scenario of time complexity is = 2n + m
+        Therefore time complexity = O(n)
