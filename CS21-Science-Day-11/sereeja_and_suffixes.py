@@ -14,14 +14,14 @@ Print m lines — on the i-th line print the answer to the number li.
 
 def find_distinct_nums(nums):
     distinct_count = [0] * len(nums)
-    used = [None] * len(nums)
+    used = set()
     for i in range(len(nums) - 1, -1, -1):
         if nums[i] not in used:
             if i == len(nums) - 1:
                 distinct_count[i] = 1
             else:
                 distinct_count[i] = distinct_count[i + 1] + 1
-            used[i] = nums[i]
+            used.add(nums[i])
         else:
             distinct_count[i] = distinct_count[i + 1]
     return distinct_count
