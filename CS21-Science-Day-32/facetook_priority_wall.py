@@ -11,6 +11,7 @@ def getPriority(action, name):
         else:
             return (p1, p2, 15 if name == p1 or name == p2 else 0)
 
+
 name = input()
 n = int(input())
 actions = []
